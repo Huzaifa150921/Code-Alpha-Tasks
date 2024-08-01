@@ -1,0 +1,72 @@
+/* src/App.css */
+
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set background color for the app */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  padding: 20px;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.player-container,
+.playlist-container,
+.search-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.controls,
+.song-list {
+  display: flex;
+  gap: 10px;
+}
+
+.song {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.song:hover {
+  background-color: #e0e0e0;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.progress-bar {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.volume-control {
+  width: 100%;
+}
+
+.volume-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}

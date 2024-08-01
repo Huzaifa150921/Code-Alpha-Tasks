@@ -1,0 +1,21 @@
+/* src/components/Playlist.css */
+
+.playlist-container {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.song-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.song {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.song:hover {
+  background-color: #e0e0e0;
+}
